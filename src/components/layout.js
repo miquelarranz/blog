@@ -20,6 +20,7 @@ const Layout = ({ location, title, children }) => {
           style={{
             boxShadow: `none`,
             color: `inherit`,
+            fontSize: "32px",
           }}
           to={`/`}
         >
@@ -59,9 +60,10 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
+        © {new Date().getFullYear()}, I'm using
         {` `}
         <a href="https://www.gatsbyjs.org">Gatsby</a>
+        {` `} to create this blog
       </footer>
     </div>
   )
