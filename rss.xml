@@ -1,3 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Miquel Arranz blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://blog.miquelarranz.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 17 Jul 2020 16:01:59 GMT</lastBuildDate><item><title><![CDATA[Welcome to my blog]]></title><description><![CDATA[Welcome to my blog. I will be brief and the idea is to introduce the main topics I will cover in this blog. The idea is to focus mainly on…]]></description><link>https://blog.miquelarranz.com/welcome-to-my-blog/</link><guid isPermaLink="false">https://blog.miquelarranz.com/welcome-to-my-blog/</guid><pubDate>Fri, 17 Jul 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Welcome to my blog. I will be brief and the idea is to introduce the main topics I will cover in this blog.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Miquel Arranz blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://blog.miquelarranz.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 18 Jul 2020 17:17:19 GMT</lastBuildDate><item><title><![CDATA[Why Typescript?]]></title><description><![CDATA[I’m pretty sure that all of you have heard about Typescript, but what it is? Basically, Typescript is a superset of Javascript, but, in the…]]></description><link>https://blog.miquelarranz.com/why-typescript/</link><guid isPermaLink="false">https://blog.miquelarranz.com/why-typescript/</guid><pubDate>Sat, 18 Jul 2020 19:18:03 GMT</pubDate><content:encoded>&lt;p&gt;I’m pretty sure that all of you have heard about Typescript, but what it is? Basically, Typescript is a superset of Javascript, but, in the end, it’s Javascript too but with some cool features:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;It adds typing to Javascript, which is super useful to add robustness to our code and avoid easy type mistakes. Also, it will help us to improve the semantic and the readability of our code.&lt;/li&gt;
+&lt;li&gt;It Can be used on both sides of the force (client/server). So you can use it in your React projects but also in the NestJS ones.&lt;/li&gt;
+&lt;li&gt;It has support for the Javascript of the present and the future before they become supported by modern browsers (Chrome, Firefox, &lt;del&gt;IE&lt;/del&gt;, Safari). So we use that last stuff and forget about compilation steps.&lt;/li&gt;
+&lt;li&gt;It can be compiled to a Javascript (we already said it’s Javascript) version that works everywhere. So, your Typescript code will always be compiled to a compatible Javascript version that, as we said, works with all the modern browsers.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Let’s see an example of code:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;// Random Class
+
+class Table {
+    private _width: number;
+
+    constructor(width: number) {
+        this._width = width;
+    }
+
+    get id() {
+        return this._id;
+    }
+}
+
+// Random code that uses our class
+const table = new Table(12);
+console.log(table.width) // will return 12&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;There are more features but I wanted to mention the most important ones. So, what are waiting to give it a try?&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Welcome to my blog]]></title><description><![CDATA[Welcome to my blog. I will be brief and the idea is to introduce the main topics I will cover in this blog. The idea is to focus mainly on…]]></description><link>https://blog.miquelarranz.com/welcome-to-my-blog/</link><guid isPermaLink="false">https://blog.miquelarranz.com/welcome-to-my-blog/</guid><pubDate>Fri, 17 Jul 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Welcome to my blog. I will be brief and the idea is to introduce the main topics I will cover in this blog.&lt;/p&gt;
 &lt;p&gt;The idea is to focus mainly on Typescript and React but I will probably talk about the web world in general. I will try to show you small tricks but also will cover the main stuff related to the topics I mentioned.&lt;/p&gt;
 &lt;p&gt;I hope you enjoy the read!&lt;/p&gt;</content:encoded></item></channel></rss>
