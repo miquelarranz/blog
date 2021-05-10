@@ -1,6 +1,6 @@
 ---
 title: Why Typescript?
-date: "2020-07-18T19:18:03.284Z"
+date: "2020-07-18T19:18:03.283Z"
 description: "Why everyone is using Typescript nowadays? Why should I use it too?"
 ---
 
