@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Miquel Arranz blog`,
+    title: `Miquel Arranz`,
     author: {
       name: `Miquel Arranz`,
-      summary: `who lives in Barcelona and works as Frontend Engineer.`,
+      summary: `who lives in Barcelona and works as Frontend Tech Lead.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Miquel Arranz personal blog`,
     siteUrl: `https://blog.miquelarranz.com`,
     social: {
-      twitter: `miquelarranz`,
+      twitter: `miquel_arranz`,
     },
   },
   plugins: [
